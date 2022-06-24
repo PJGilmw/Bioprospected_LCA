@@ -1,0 +1,20 @@
+Ingredient;pct;kg.kg feed-1;Lipid;Protein;Carb;Ash;Water;sum profile;Sources;Feed protein kg.kg-1; Feed energy MJ.kg-1;;;MJ.kg-1;
+LT Fishmeal PBR;30;0.3;0.078708;0.670892;0.025299;0.162101;0.063;1;[1],[4];0.670892;19.33;;Lip;36.3;[5]
+Rapeseed oil PBR;15;0.15;1;0;0;0;0;1;;0;36.3;;Carb;17.3;[5]
+Wheat PBR;14;0.14;0.018200202;0.107178969;0.729019211;0.01718908;0.128412538;1;[3];0.107178969;15.83;;Prot;23.9;[5]
+Fish oil PBR;8;0.08;1;0;0;0;0;1;;0;36.3;;;;
+Soyabean meal PBR;13;0.13;0.050976;0.43365;0.3186;0.081774;0.115;1;[2];0.43365;17.73;;;;
+Poultry meal PBR;8;0.08;0.108692;0.698065;0;0.130243;0.063;1;[1];0.698065;20.63;;;;
+Hemoglobin meal PBR;4;0.04;0;0.915474;0;0.005526;0.079;1;[1];0.915474;21.88;;;;
+Wheat gluten PBR;8;0.08;0;1;0;0;0;1;;1;23.9;;;;
+;[6];;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+[1];Martínez-Llorens, S., Vidal, A. T., Moñino, A. V., Gómez Ader, J., Torres, M. P., & Cerdá, M. J. (2008). Blood and haemoglobin meal as protein sources in diets for gilthead sea bream (Sparus aurata): Effects on growth, nutritive efficiency and fillet sensory differences. Aquaculture Research, 39(10), 1028–1037. https://doi.org/10.1111/j.1365-2109.2008.01961.x;;;;;;;;;;;;;;
+[2];Hasan, Mahmud et al. 2019. “Effects of Wetting Media Cattle Blood, Rice Gruel and Water on the Yield and Amino Acid Composition of Tubificid Worms.” Journal of the Asiatic Society of Bangladesh, Science 45(2): 229–39.-composition-of-the-media-ingredients-soybean-meal-and-mustard-oil-cake-and_tbl2_339251755;;;;;;;;;;;;;;
+[3];Wieser, Herbert, Peter Koehler, and Katharina A. Scherf. 2020. Wheat - An Exceptional Crop Chemical Composition of Wheat Grains.;;;;;;;;;;;;;;
+[4];https://www.nohansen-agentur.dk/fishmeal/lt-fishmeal.aspx , visited 20/10/21;;;;;;;;;;;;;;
+[5];Williams, Peter J.Le B., and Lieve M.L. Laurens. 2010. “Microalgae as Biodiesel & Biomass Feedstocks: Review & Analysis of the Biochemistry, Energetics & Economics.” Energy and Environmental Science 3(5): 554–90.;;;;;;;;;;;;;;
+[6];Internal communication Danish trout farm;;;;;;;;;;;;;;
