@@ -6,7 +6,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 
 
-install.packages(c("ggridges", "ggplot2", "reshape2", "plyr", "dplyr", "tidyverse","plotly","GGaly","rio","ggthemes","foreach","parallel","doParallel","foreach"))
+install.packages(c("ggridges", "ggplot2", "reshape2", "plyr", "dplyr", "tidyverse","plotly","GGaly","rio","ggthemes","foreach","parallel","doParallel","foreach","EnvStats","rstatix"))
 library(readxl)
 library(ggplot2)
 library(reshape2) 
@@ -310,3 +310,21 @@ tibble_per_market_melt=as_tibble(per_market_melt)
 unique_stats_tibble=distinct_at(tibble_per_market_melt, vars(Stat,Impact_Category,`Mix size`,`Score Stat`))
 
 write.csv(unique_stats_tibble,"stats Production mix.csv",row.names = TRUE)
+
+
+per_market_melt_stats=per_market_melt %>%
+  group_by(`Mix size`,`Impact_Category`) %>%
+  get_summary_stats(Impact_per_mix, show = c("mean","median","sd"))
+
+
+
+
+per_market_melt_stats=per_market_melt %>% group_by(`Mix size`,`Impact_Category`) %>%
+  summarise("Geometric Mean" = psych::geometric.mean(Impact_per_mix, na.rm = T),
+            "Geometric Standard deviation" = EnvStats::geoSD(Impact_per_mix, na.rm = FALSE, sqrt.unbiased = TRUE),
+            "Standard deviation"= sd(Impact_per_mix, na.rm = T),
+            "Mean" = mean(Impact_per_mix, na.rm = T),
+            "Median"= median(Impact_per_mix, na.rm = T))
+
+
+write.csv(per_market_melt_stats,"stats Production mix_extended.csv",row.names = TRUE)
