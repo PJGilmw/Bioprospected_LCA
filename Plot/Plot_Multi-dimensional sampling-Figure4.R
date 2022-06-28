@@ -6,7 +6,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 
 
-install.packages(c("ggridges", "ggplot2", "reshape2", "plyr", "dplyr", "tidyverse","plotly","GGaly","rio","ggthemes","foreach","parallel","doParallel","foreach","EnvStats","rstatix"))
+install.packages(c("ggridges", "ggplot2", "reshape2", "plyr", "dplyr", "tidyverse","plotly","GGaly","rio","ggthemes","foreach","parallel","doParallel","foreach","EnvStats","rstatix","psych"))
 library(readxl)
 library(ggplot2)
 library(reshape2) 
@@ -30,6 +30,9 @@ devtools::install_github("associatedpress/aptheme")
 
 library(aptheme)
 
+library(psych)
+library(rstatix)
+library(EnvStats)
 
 # Load data
 
