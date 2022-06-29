@@ -14,7 +14,7 @@ Change the path to the location of your Ecoinvent files and execute the whole sc
 This will take some time.
 '''
 
-# Change the path your Ecoinvent files
+# Change the path to your Ecoinvent files folder
 
 ei36dir = r"C:/Users/GF20PZ/OneDrive - Aalborg Universitet/Dokumenter/AAU/Databases,softwares/Brightway/Ecoinvent/Ecoinvent 3.6/datasets"
 
