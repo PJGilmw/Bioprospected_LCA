@@ -135,6 +135,8 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 + A python interface (e.g., Spyder) and a R interface (e.g., Rstudio)
 
++ An internet connection as the code downloads climatic data from an API.
+
 *Step by step procedure:*
 
 1. **Download or clone a local copy of the repository. Keep the folders structure.**
@@ -196,7 +198,7 @@ pip install pyshp
 pip install ray
 ```
 
-For MACOS, the environment should be built manually by installing the packages listed in the ubuntu file.
+For MACOS, you should try to install the environment from the ubuntu file and, in case of issues, complete the environment by installing the problematic packages manually. 
 
 
 
@@ -213,15 +215,11 @@ Mono-dimensional and multi-dimensional samplings are done separately with two di
 
 + In the Scripts directory, open the file **Simulate_Mono_2nd** or/and **Simulate_Multi_2nd**. 
   Read the instructions at the top of the file, and, as indicated, change the value of the sample size to quickly test the model .
-
-
-
-
-
- &#128680;&#128680;&#128680;**WARNING 
-These scripts were run on a remote server with 64 cores, 256 GB RAM and it took respectively  3 days and 7 days to produce the results with the chosen samples'sizes for Mono and Multi-dimensional samplings.
-A laptop with fewer cores will take much more time.
-To test the code, one can use lower sample sizes.**
+<br>
+  &#128680;&#128680;&#128680;**WARNING 
+  These scripts were run on a remote server with 64 cores, 256 GB RAM and it took respectively 3 days and 7 days to produce the results with the chosen   samples'sizes for mono and multi-dimensional samplings.
+  A laptop with fewer cores will take much more time.
+  To test the code, one can use lower sample sizes.**
 
 + Run the simulation by executing the whole script from the python interface or from command line (```python Simulate.py```). 
 
