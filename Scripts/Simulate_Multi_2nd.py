@@ -35,7 +35,7 @@ fraction_max_yield=0.3 # Fraction of maximum yiled achieved by the cultivated st
 senstype="SOBOL"
 latsec= 2 # Latitude gap (°) between 2 random locations (yield 28 locations)
 
-""" Execute the script."""
+""" Execute the script by clicking "Run current cell" if on spyder"""
 
 
 

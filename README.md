@@ -226,6 +226,9 @@ Mono-dimensional and multi-dimensional samplings are done separately with two di
 + Wait for all the simulations to be finished (Takes a few minutes to several days depending on the sample size and your computer). The script will export excel and csv files in the folder "Outputs-Mono" or "Outputs-Multi".
 
 5. **Plot the figures based on the generated excel files **
+  
++ &#128680;&#128680;&#128680;**WARNING 
+  These plots were produced with R running on a remote server with 64 cores, 256 GB RAM to avoid        session crash because of memory limitation.** 
 
 + Open the R script **Plot-Mono-dimensional sampling**. Execute to plot and save the figures associated with Mono-dimensional sampling (Article and SI). 
 + Open the R script **Plot_Multi-dimensional sampling-Figure4**. Execute to process production mixes and plot and save Figure 4. 
@@ -241,5 +244,3 @@ Mono-dimensional and multi-dimensional samplings are done separately with two di
 REFERENCES
 
 Geider, R. & La Roche, J. Redfield revisited: variability of C:N:P in marine microalgae and its biochemical basis, European Journal of Phycology, 37:1, 1-17, (2002)
-
-Perez-Lopez, P. et al. Comparative life cycle assessment of real pilot reactors for microalgae cultivation in different seasons. Appl. Energy 205, 1151-1164 (2017)
