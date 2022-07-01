@@ -2,7 +2,11 @@
 
 ## Overview of the repository
 
-This repository contains the code used to reproduce the results of the manuscript: XXXX 
+This repository contains the code used to reproduce the results of the manuscript: *Jouannais.P, Pizzol.M, Stochastic Ex-ante LCA Under Multidimensional Uncertainty: Anticipating the Production of Undiscovered Microalgal Compounds in Europe (under review)* 
+
+**Cite this repository:**
+[![DOI](https://zenodo.org/badge/507035901.svg)](https://zenodo.org/badge/latestdoi/507035901)
+
  
 ### Overview of folders and files:
 
